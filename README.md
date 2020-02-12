@@ -9,7 +9,7 @@ The aim is to create a placeholder that meets the following criteria:
 - Does not require additional JavaScript introduced into the page.
 - Keeps SVG size to a minimum.
 
-## Installation
+## Installation
 ```
 composer require dmnc/ssip
 ```
