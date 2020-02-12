@@ -1,9 +1,9 @@
 <?php
 
-namespace Dmnc\ImagePlaceholders\Tests;
+namespace Dmnc\Ssip\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Dmnc\ImagePlaceholders\Placeholder;
+use Dmnc\Ssip\Placeholder;
 
 /**
  * Super simple tests for super simple placeholders
@@ -45,6 +45,22 @@ class PlaceholderTest extends TestCase
             'AgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCB3aWR0aD0iMS' .
             'IgaGVpZ2h0PSIxIiBmaWxsPSIjZjAwIi8+PC9zdmc+',
             (string) $placeholder
+        );
+    }
+
+    /**
+     * Check that the static method works too.
+     *
+     * @author Dom Morgan <dom@d3r.com>
+     */
+    public function testSrc()
+    {
+        $this->assertSame(
+            'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcm' .
+            'cvMjAwMC9zdmciIHdpZHRoPSIxNTAiIGhlaWdodD0iMTAwIiB2aWV3Qm94PSIwID' .
+            'AgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmVjdCB3aWR0aD0iMS' .
+            'IgaGVpZ2h0PSIxIiBmaWxsPSIjZjAwIi8+PC9zdmc+',
+            Placeholder::src(150, 100, "#f00")
         );
     }
 }

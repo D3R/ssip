@@ -1,6 +1,6 @@
 <?php
 
-namespace Dmnc\ImagePlaceholders;
+namespace Dmnc\Ssip;
 
 /**
  * Create data URIs for SVG placeholders.

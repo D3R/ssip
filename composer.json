@@ -1,5 +1,5 @@
 {
-    "name": "dmnc/ssip",
+    "name": "dmnc/sssip",
     "description": "Super simple SVG image placeholders",
     "type": "library",
     "license": "MIT",
@@ -11,12 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dmnc\\ImagePlaceholders\\": "src"
+            "Dmnc\\Ssip\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dmnc\\ImagePlaceholders\\Tests\\": "tests"
+            "Dmnc\\Ssip\\Tests\\": "tests"
         }
     },
     "require": {
