@@ -1,6 +1,6 @@
 {
-    "name": "dmnc/sssip",
-    "description": "Super simple SVG image placeholders",
+    "name": "dmnc/ssip",
+    "description": "Super simple (SVG) image placeholders",
     "type": "library",
     "license": "MIT",
     "authors": [
