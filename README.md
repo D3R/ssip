@@ -28,10 +28,13 @@ echo '<img src="' . $placeholder . '" alt="Stay accessible out there" />';
 ```
 
 ## Support
-This will hit v1.0.0 once extensive browser testing has been completed. Currently known to behave like an img on (modern)
-- Chrome
-- Safari
-- Firefox
+Currently tested on:
+- Chrome 80
+- Firefox 73
+- Safari 12.1
+- Edge 18
+- IE11
+- IE10
 
 ## Alternatives
 If you require more feature rich placeholders, and are able to add JavaScript into your page, I suggest the fantastic [Holder.js](http://holderjs.com/).
